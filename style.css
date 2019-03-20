@@ -1,0 +1,165 @@
+/* Universelt */
+
+* {
+	margin: 0;
+}
+
+h1 {
+	font-size: 8vw;
+	margin-bottom: 5vh;
+	color: #333333;
+	font-family: 'Cairo', sans-serif;
+}
+
+h3 {
+	color: #333333;
+	font-family: 'Cairo', sans-serif;
+	line-height: 1.5;
+	font-size: 6vw;
+}
+
+p {
+	color: #333333;
+	font-family: open sans;
+	line-height: 1.5;
+	font-size: 5vw;
+}
+
+h2 {
+	color: white;
+	font-family: open sans;
+	line-height: 1.5;
+	font-size: 6vw;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #0077FF;
+	font-family: open sans;
+	line-height: 1.5;
+	font-size: 6vw;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+
+header {
+	text-align: center;
+	width: 100%;
+	background-color: #81BD62;
+	height: 45vh;
+}
+
+#boks1 {
+	margin: 20vw 10vw 25vw 10vw;
+}
+
+#boks2 {
+	padding: 20vw 10vw 25vw 10vw;
+	background-color: #f3f3f3;
+}
+
+#boks3 {
+	margin: 20vw 10vw 25vw 10vw;
+}
+
+
+
+line {
+	line-height: 1px;
+	width: 100%;
+	border-style: solid;
+}
+
+/* Tre gode råd til pårørende */
+
+article {
+	margin: 5vw;
+	display: grid;
+	grid-template-areas: 'ikon tekst tekst';
+	grid-gap: 10px;
+}
+
+article div p {
+	grid-area: tekst;
+	color: white;
+}
+
+aritcle div h2 {
+	grid-area: tekst;
+}
+
+article img {
+	grid-area: ikon;
+	max-width: 10vw;
+}
+
+#boks4 img {
+	width: 100%;
+	margin: 0px;
+}
+
+#boks4 {
+	padding-top: 20vw;
+	background-color: #414b5a;
+}
+
+#boks4 h1 {
+	margin-left: 10vw;
+	margin-right: 10vw;
+	color: white;
+}
+
+/* Infografik */
+
+#boks5 {
+	text-align: center;
+	margin: 23vw 10vw 25vw 10vw;
+}
+
+#boks5 img {
+	max-width: 100%;
+}
+
+/* Gode råd til at sige det til en du holder af */
+
+#boks6 {
+	background-color: #f3f3f3;
+		padding: 23vw 10vw 25vw 10vw;
+}
+
+/* Infografik */
+
+footer {
+	padding: 10vw;
+	text-align: center;
+	background-color: #222224;
+}
+
+footer p {
+	font-size: 4vw;
+	color: #707070;
+}
+
+#footer_wrapper {
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+#footer_wrapper img {
+	margin: 10vw;
+	max-width: 50%;
+}
+
+#footer_wrapper2 {
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+
+/*<div>Icons made by <a href="https://roundicons.com/" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>*/
