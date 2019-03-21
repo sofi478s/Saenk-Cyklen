@@ -5,31 +5,31 @@
 }
 
 h1 {
-	font-size: 8vw;
+	font-size: 2rem;
 	margin-bottom: 5vh;
 	color: #333333;
 	font-family: 'Cairo', sans-serif;
-}
-
-h3 {
-	color: #333333;
-	font-family: 'Cairo', sans-serif;
-	line-height: 1.5;
-	font-size: 6vw;
-}
-
-p {
-	color: #333333;
-	font-family: open sans;
-	line-height: 1.5;
-	font-size: 5vw;
 }
 
 h2 {
 	color: white;
 	font-family: open sans;
 	line-height: 1.5;
-	font-size: 6vw;
+	font-size: 1.2rem;
+}
+
+h3 {
+	color: #333333;
+	font-family: 'Cairo', sans-serif;
+	line-height: 1.5;
+	font-size: 1.2rem;
+}
+
+p {
+	color: #333333;
+	font-family: open sans;
+	line-height: 1.5;
+	font-size: 1rem;
 }
 
 a {
@@ -38,7 +38,7 @@ a {
 	color: #0077FF;
 	font-family: open sans;
 	line-height: 1.5;
-	font-size: 6vw;
+	font-size: 1.2rem;
 }
 
 a:visited {
@@ -57,15 +57,9 @@ header {
 	margin: 20vw 10vw 25vw 10vw;
 }
 
-#boks2 {
-	padding: 20vw 10vw 25vw 10vw;
-	background-color: #f3f3f3;
-}
-
 #boks3 {
 	margin: 20vw 10vw 25vw 10vw;
 }
-
 
 
 line {
@@ -74,7 +68,18 @@ line {
 	border-style: solid;
 }
 
-/* Tre gode råd til pårørende */
+/* Kampagnefilm */
+
+#boks2 {
+	padding: 20vw 10vw 25vw 10vw;
+	background-color: #f3f3f3;
+}
+
+video {
+	width: 100%;
+}
+
+/* Hvilken cykel passer tild ig */
 
 article {
 	margin: 5vw;
@@ -88,7 +93,7 @@ article div p {
 	color: white;
 }
 
-aritcle div h2 {
+article div h2 {
 	grid-area: tekst;
 }
 
@@ -128,10 +133,10 @@ article img {
 
 #boks6 {
 	background-color: #f3f3f3;
-		padding: 23vw 10vw 25vw 10vw;
+	padding: 23vw 10vw 25vw 10vw;
 }
 
-/* Infografik */
+/* Footer */
 
 footer {
 	padding: 10vw;
@@ -140,17 +145,11 @@ footer {
 }
 
 footer p {
-	font-size: 4vw;
+	font-size: 0.8rem;
 	color: #707070;
 }
 
-#footer_wrapper {
-	margin: auto;
-	display: grid;
-	grid-template-columns: auto auto auto;
-}
-
-#footer_wrapper img {
+footer img {
 	margin: 10vw;
 	max-width: 50%;
 }
@@ -159,6 +158,157 @@ footer p {
 	margin: auto;
 	display: grid;
 	grid-template-columns: auto auto;
+}
+
+/* _____ Ipad Media Query _____ */
+
+@media only screen and (min-width:700px) {
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 1.8rem;
+	}
+
+	a {
+		font-size: 2rem;
+	}
+
+	footer p {
+		font-size: 1rem;
+	}
+
+	#boks5 {
+		margin: 23vw 5vw 25vw 5vw;
+	}
+
+	#boks5 img {
+		min-width: 80%;
+	}
+
+}
+
+/* _____ Web Media Query _____ */
+
+@media only screen and (min-width:1100px) {
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	a {
+		font-size: 1.2rem;
+	}
+
+	footer p {
+		font-size: 1rem;
+	}
+
+	header {
+		height: 50vh;
+	}
+
+	#boks1 {
+		margin: 5vw 10vw 5vw 10vw;
+	}
+
+	#boks2 {
+		padding: 5vw 10vw 5vw 10vw;
+		background-color: #f3f3f3;
+	}
+
+	#boks3 {
+		margin: 5vw 10vw 5vw 10vw;
+	}
+
+	/*  Web Hvilken Cykel passer til dig  */
+
+	#boks4 {
+		padding-top: 0vw;
+	}
+
+	#boks4 h1 {padding-top: 2rem;}
+
+	#boks4 .boks4_fleks {
+		display: grid;
+		grid-template-areas: 'ikon tekst tekst billede';
+	}
+
+	#boks4 picture img {
+		grid-area: billede;
+		max-width: 100%;
+	}
+
+article {
+	margin-left: 10vw;
+	margin-top: 2vw;
+	margin-bottom: 0vw;
+}
+
+article img {
+	padding-right: 2vw;
+	max-width: 5vw;
+}
+
+		/*  Web Infografik  */
+
+	#boks5 {
+	margin: 5vw 10vw 5vw 10vw;
+}
+
+	/* Web Gode råd til at sige det til en du holder af */
+
+#boks6 {
+	background-color: #f3f3f3;
+	padding: 5vw 25vw 5vw 10vw;
+}
+
+
+	/* Web Footer
+	*/
+
+	footer {
+	padding: 2vw;
+}
+
+footer p {
+	font-size: 0.9rem;
+}
+
+footer img {
+	margin: 3vw;
+	max-width: 5%;
+}
+
+#footer_wrapper2 {
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+
 }
 
 
