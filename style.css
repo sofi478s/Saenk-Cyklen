@@ -53,20 +53,33 @@ header {
 	height: 45vh;
 }
 
-#boks1 {
-	margin: 20vw 10vw 25vw 10vw;
-}
-
-#boks3 {
-	margin: 20vw 10vw 25vw 10vw;
-}
-
 
 line {
 	line-height: 1px;
 	width: 100%;
 	border-style: solid;
 }
+
+/* Boks 1 */
+#boks1 {
+	margin: 20vw 10vw 25vw 0vw;
+	display: grid;
+	grid-template-areas: 'tekst tekst tekst tekst ikon';
+}
+
+
+#boks3 {
+	margin: 20vw 10vw 25vw 10vw;
+	grid-gap: 10px;
+}
+
+.boks1_ikon img {
+	margin-right: 2vw;
+	grid-area: ikon;
+	max-width: 5vw;
+}
+
+
 
 /* Kampagnefilm */
 
@@ -77,6 +90,19 @@ line {
 
 video {
 	width: 100%;
+}
+
+/* Konkurrence */
+#boks3 {
+	padding-top: 10vw;
+	background-image: url(billeder/cykel_baggrund.png);
+	background-size: 150%;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+
+.konkurrence {
+	padding: 10vw 10vw 25vw 10vw;
 }
 
 /* Hvilken cykel passer tild ig */
@@ -238,8 +264,13 @@ footer img {
 		background-color: #f3f3f3;
 	}
 
+	.konkurrence {
+		padding: 0vw 10vw 10vw 10vw;
+	}
+
 	#boks3 {
-		margin: 5vw 10vw 5vw 10vw;
+		background-size: 100%;
+		background-position: center;
 	}
 
 	/*  Web Hvilken Cykel passer til dig  */
