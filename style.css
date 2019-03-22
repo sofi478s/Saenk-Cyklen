@@ -150,8 +150,7 @@ footer p {
 }
 
 footer img {
-	margin: 10vw;
-	max-width: 50%;
+	max-width: 15%;
 }
 
 #footer_wrapper2 {
@@ -249,7 +248,9 @@ footer img {
 		padding-top: 0vw;
 	}
 
-	#boks4 h1 {padding-top: 2rem;}
+	#boks4 h1 {
+		padding-top: 2rem;
+	}
 
 	#boks4 .boks4_fleks {
 		display: grid;
@@ -261,52 +262,52 @@ footer img {
 		max-width: 100%;
 	}
 
-article {
-	margin-left: 10vw;
-	margin-top: 2vw;
-	margin-bottom: 0vw;
-}
+	article {
+		margin-left: 10vw;
+		margin-top: 2vw;
+		margin-bottom: 0vw;
+	}
 
-article img {
-	padding-right: 2vw;
-	max-width: 5vw;
-}
+	article img {
+		padding-right: 2vw;
+		max-width: 5vw;
+	}
 
-		/*  Web Infografik  */
+	/*  Web Infografik  */
 
 	#boks5 {
-	margin: 5vw 10vw 5vw 10vw;
-}
+		margin: 5vw 10vw 5vw 10vw;
+	}
 
 	/* Web Gode råd til at sige det til en du holder af */
 
-#boks6 {
-	background-color: #f3f3f3;
-	padding: 5vw 25vw 5vw 10vw;
-}
+	#boks6 {
+		background-color: #f3f3f3;
+		padding: 5vw 25vw 5vw 10vw;
+	}
 
 
 	/* Web Footer
 	*/
 
 	footer {
-	padding: 2vw;
-}
+		padding: 2vw;
+	}
 
-footer p {
-	font-size: 0.9rem;
-}
+	footer p {
+		font-size: 0.9rem;
+	}
 
-footer img {
-	margin: 3vw;
-	max-width: 5%;
-}
+	footer img {
+		margin: 3vw;
+		max-width: 5%;
+	}
 
-#footer_wrapper2 {
-	margin: auto;
-	display: grid;
-	grid-template-columns: auto auto;
-}
+	#footer_wrapper2 {
+		margin: auto;
+		display: grid;
+		grid-template-columns: auto auto;
+	}
 
 
 }
